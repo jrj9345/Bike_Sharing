@@ -1,0 +1,26 @@
+season -  1 = spring, 2 = summer, 3 = fall, 4 = winter 
+holiday - whether the day is considered a holiday
+workingday - whether the day is neither a weekend nor holiday
+weather - 1: Clear, Few clouds, Partly cloudy, Partly cloudy 
+2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist 
+3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds 
+4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog 
+temp - temperature in Celsius
+atemp - "feels like" temperature in Celsius
+humidity - relative humidity
+windspeed - wind speed
+casual - number of non-registered user rentals initiated
+registered - number of registered user rentals initiated
+count - number of total rentals
+
+season - 1 : 봄, 2 : 여름, 3 : 가을. 4 : 겨울
+holiday - 그날이 휴일인지 아닌지 판단 휴일 : 1, 휴일이 아닐시 : 2
+wokingday - 그날이 주말과 휴일 둘다 아닌지 판단 맞으면 : 1, 아니면 : 2
+weather - 1 : 맑음, 구름이 거의 없음, 부분적으로 흐림
+2 : 옅은 안개+구름, 옅은 안개 + 드문드문 구름낀, 옅은 안개 + 구름이 거의없음,옅은 안개
+3 : 살짝 눈이옴, 천둥번개를 동반한 살짝 비가오며 흐린구름, 살짝 비가오며 흐린구름 
+4 : 비가 많이오며 천둥번개를 동반하며 옅은 안개가 낌, 눈이오며 짙은 안개가 낌
+temp - 기온(섭씨온도, 수치로 표시)
+atemp - 체감온도(섭씨온도, 수치로 표시)
+humidity - 습도(수치로 표시)
+windspeed - 풍속(수치로 표시)
